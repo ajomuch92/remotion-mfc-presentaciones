@@ -41,11 +41,9 @@ export const Slide1: React.FC<{ startFrame: number; duration: number }> = ({
         <div style={{
           opacity: interpolate(localFrame, [10, 40], [0, 0.7], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
           marginBottom: 24,
+          fontSize: 100,
         }}>
-          <svg width="60" height="80" viewBox="0 0 60 80" fill="none">
-            <rect x="25" y="0" width="10" height="80" rx="2" fill="#C9A84C" />
-            <rect x="0" y="22" width="60" height="10" rx="2" fill="#C9A84C" />
-          </svg>
+          ⛪
         </div>
 
         <div style={{ width: lineWidth, height: 1, background: "linear-gradient(90deg, transparent, #C9A84C, transparent)", marginBottom: 8 }} />
