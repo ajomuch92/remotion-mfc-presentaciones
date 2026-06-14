@@ -79,7 +79,7 @@ export const MFCPresentation: React.FC = () => {
       <Html5Audio src={staticFile("audios/Closures.mp3")} volume={0.2} />
 
       {W("slide1",      Slide1,       15, 15)}
-      {W("slide2",      Slide2,       15, 15)}
+      {W("slide2",      Slide2,       15, 25)}
       {W("slide3",      Slide3,       15, 15)}
       {W("slide4",      Slide4,       15, 15)}
       {W("slide5",      Slide5,       15, 15)}
