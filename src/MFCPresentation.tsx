@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill } from "remotion";
+import { AbsoluteFill, Html5Audio, staticFile } from "remotion";
 import { SlideWrapper } from "./components/SlideTransition";
 
 // Slides narrativos
@@ -76,6 +76,7 @@ export const MFCPresentation: React.FC = () => {
         import { Audio, staticFile } from "remotion";
         <Audio src={staticFile("audio/fondo.mp3")} volume={0.35} />
       */}
+      <Html5Audio src={staticFile("audios/Clousures.mp3")} volume={0.35} />
 
       {W("slide1",      Slide1,       15, 15)}
       {W("slide2",      Slide2,       15, 15)}
